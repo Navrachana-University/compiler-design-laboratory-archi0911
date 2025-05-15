@@ -1,0 +1,6 @@
+shuru
+x ho 3;
+y ho 4;
+z ho x jod y ghata 2;
+dikhao z;
+band_karo
