@@ -1,2 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/bPoO8GTw)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19532267&assignment_repo_type=AssignmentRepo)
+Project Description
+This project implements a compiler for a Hinglish-based programming language. “Hinglish” refers to a hybrid language combining Hindi and English syntax. Source files are written using a .hgl extension, which are then translated into Three-Address Code (TAC) as an intermediate representation.
+The project demonstrates core compiler design principles using Lex (Flex) and Yacc (Bison), including lexical analysis, syntax parsing, and intermediate code generation.
+
+
+Project Files
+lexer.l – Contains Flex definitions for tokenizing the Hinglish programming language.
+parser.y – Contains Bison grammar rules and semantic actions for generating Three-Address Code (TAC).
+input.txt – Example input file written in the custom Hinglish syntax.
+output.txt – Output file containing the generated TAC after compilation.
+README.md – Documentation file explaining the project setup, features, and usage.
